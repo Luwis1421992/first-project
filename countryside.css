@@ -1,0 +1,67 @@
+@charset "utf-8";
+body{
+	background-color: red;
+}
+#logo{
+width: auto;
+height: 40px;
+text-align: center;
+background: yellow;
+
+}
+
+#header{
+	color: green;
+}
+#logo{
+
+}
+#menu{
+	background-color: green;
+	width: auto;
+}
+#menu ul{
+	background: #1F568B;
+	list-style-type: none;
+	text-align: center;
+
+}
+#menu li {
+	color:#f12345;
+	display: inline-block;
+	line-height: 40px;
+	margin-left: -5px;
+	width: 120px;
+	height: 40px;
+}
+#menu a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+}
+#menu a:hover{
+	background: #F1f1f1;
+	color: #333;
+}
+
+}
+.sub-menu li{ 
+	display: none;
+}
+#menu li {
+	position: relative;
+}
+.sub-menu {
+	display: none;
+	position: absolute;
+}
+
+#menu li:hover .sub-menu{
+	display: block;
+}
+.sub-menu li{
+	margin-left: 0;
+}
+.sub-menu >ul{
+	display: none;
+}
